@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSE Programming Table</title>
+  <style>
+    table, th, td {
+      border: 2px solid #333;
+      border-collapse: collapse;
+      padding: 8px;
+      text-align: center;
+    }
+    caption {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>CSE Programming Courses Overview</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Semester</th>
+        <th colspan="2">Core Subjects</th>
+        <th rowspan="2">Lab</th>
+      </tr>
+      <tr>
+        <th>Subject 1</th>
+        <th>Subject 2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2">1</td>
+        <td>Programming in C</td>
+        <td>Discrete Mathematics</td>
+        <td>
+          <!-- Nested Table for Lab Details -->
+          <table>
+            <tr>
+              <th>Lab Name</th>
+              <th>Hours</th>
+            </tr>
+            <tr>
+              <td>C Lab</td>
+              <td>3</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>Digital Logic</td>
+        <td>Engineering Physics</td>
+        <td>Physics Lab</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td colspan="2">Data Structures & Algorithms</td>
+        <td>DS Lab</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>OOP with Java</td>
+        <td>Database Systems</td>
+        <td>Java Lab</td>
+      </tr>
+        <tr>
+            <td>4</td>
+            <td colspan="2">Web Technologies</td>
+            <td>Web Lab</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Computer Networks</td>
+            <td>Software Engineering</td>
+            <td>Networks Lab</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td colspan="2">Operating Systems</td>
+            <td>OS Lab</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Compiler Design</td>
+            <td>Computer Architecture</td>
+            <td>Architecture Lab</td>
+        </tr>
+    </tbody>
+  </table>
